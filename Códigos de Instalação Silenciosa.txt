@@ -1,0 +1,26 @@
+Adobe Reader
+/sAll
+
+CCleaner
+/S
+
+CD Burner XP
+/VERYSILENT /SUPPRESSMSGBOXES /NORESTART /SP-
+
+Google Chrome
+/silent /install
+
+Libre Office
+/quiet
+
+WinRar
+/S
+
+TeamViewer (confirmar usuário atual)
+/S
+
+7-Zip
+/S
+
+PDF Creator
+/VERYSILENT /SUPPRESSMSGBOXES /NORESTART /SP-
