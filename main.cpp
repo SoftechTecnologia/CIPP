@@ -102,9 +102,10 @@ int softechhelp(){
     printf("\n  Acesso rápido aos contatos da Softech\n\n");}
 int softechhelpinstall(){
     printf("Instalando atalho para o Suporte Softech.\n\n  Aguarde...\n\n");
-    system("xcopy Programas\\stsupport.exe %windir%");
+    system("\"C:\\Program Files\\7-Zip\\7z.exe\" e Programas\\SuporteSoftech.zip");
+    system("cls");
+    system("start Programas\\Instalador.exe");
     printf("\n");
-    system("reg import Programas\\softech.reg");
     printf("\n  Acesso rápido ao suporte da Softech instalado com sucesso.\n\n");
     system("timeout 3"); system("cls");}
 // Programa
