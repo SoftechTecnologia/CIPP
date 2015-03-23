@@ -104,7 +104,7 @@ int softechhelpinstall(){
     printf("Instalando atalho para o Suporte Softech.\n\n  Aguarde...\n\n");
     system("\"C:\\Program Files\\7-Zip\\7z.exe\" e Programas\\SuporteSoftech.zip");
     system("cls");
-    system("start Programas\\Instalador.exe");
+    system("start /wait Programas\\Instalador.exe");
     printf("\n");
     printf("\n  Acesso rápido ao suporte da Softech instalado com sucesso.\n\n");
     system("timeout 3"); system("cls");}
